@@ -1,28 +1,44 @@
-Gemini said
-Ah, I see exactly what happened! In your screenshot, the text is rendering as normal paragraphs.
+Got it 👍
+GitHub automatically shows a **copy button** only when commands are inside proper fenced code blocks.
 
-To get those nice dark boxes with the "Copy" button on GitHub, you need to wrap your terminal commands in triple backticks (```). Also, it looks like a line break was missed between the install command and the next heading.
+Right now your commands are plain text, that’s why there’s no copy button.
 
-Here is the corrected Markdown code. Copy the entire block below and paste it directly into your README.md file:
+Use this exact README format instead:
 
-Markdown
-### 📁 Installation
+---
 
-Open your terminal.
+# 📦 Frontend Project
 
-Navigate to the frontend folder:
+## 📂 Installation
+
+Open your terminal and navigate to the frontend folder:
+
 ```bash
 cd frontend
+```
+
 Install the project dependencies:
 
-Bash
+```bash
 npm install
-🚀 Running the Development Server
+```
+
+---
+
+## 🚀 Running the Development Server
+
 Start the development server using:
 
-Bash
+```bash
 npm run dev
+```
+
 After running the command, the application will start locally.
 
+---
 
-Once you commit and push this updated version, GitHub will automatically format those `bash` sections into code blocks with the handy copy button! Let me know if you want the full front-end Readme reformatted this way too.
+✅ Now GitHub will automatically show the **copy button** on the right side of each code block.
+
+---
+
+If you want, I can also make it look more professional with badges, project description, and clean formatting.
