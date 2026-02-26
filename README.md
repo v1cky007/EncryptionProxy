@@ -1,9 +1,4 @@
-Got it 👍
-GitHub automatically shows a **copy button** only when commands are inside proper fenced code blocks.
 
-Right now your commands are plain text, that’s why there’s no copy button.
-
-Use this exact README format instead:
 
 ---
 
